@@ -1,8 +1,418 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mohammad Farhan | Associate Professor</title><meta name="description" content="Mohammad Farhan, Associate Professor at Hamad Bin Khalifa University."><link rel="stylesheet" href="assets/css/style.css"></head><body>
-<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span>MF</span><strong>Mohammad Farhan</strong></a><button class="menu-toggle">☰</button><nav class="nav"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="research.html">Research</a><a href="publications.html">Publications</a><a href="contact.html">Contact</a></nav></div></header>
-<main><section class="hero"><div class="container hero-grid"><div class="hero-copy"><p class="eyebrow">ASSOCIATE PROFESSOR · HBKU</p><h1>From genes to behavior.<br><em>From discovery to precision medicine.</em></h1><p class="lead">I integrate human genomics, behavioral neuroscience, functional neurogenetics and artificial intelligence to understand neurological and psychiatric disorders.</p><div class="actions"><a class="button" href="research.html">Explore research <span>↗</span></a><a class="text-link" href="about.html">About me <span>→</span></a></div></div><div class="portrait-card"><img class="portrait-photo" src="assets/images/mohammad-farhan.jpeg" alt="Mohammad Farhan"><div class="portrait-caption"><strong>Mohammad Farhan, PhD</strong><span>College of Health &amp; Life Sciences<br>Hamad Bin Khalifa University</span></div></div></div></section>
-<section class="metrics"><div class="container metric-grid"><div><strong>17+</strong><span>Years of research</span></div><div><strong>2,200+</strong><span>Citations</span></div><div><strong>30+</strong><span>i10-index</span></div><div><strong>19</strong><span>h-index</span></div><div><strong>$2.4M+</strong><span>External funding</span></div></div></section>
-<section class="section"><div class="container"><div class="section-heading"><p class="eyebrow">RESEARCH FOCUS</p><h2>Connecting disciplines to answer complex questions.</h2><p>Our work moves between human cohorts, computational approaches and functional disease models to uncover mechanisms that matter.</p></div><div class="research-grid"><a class="research-card" href="research.html#behavior"><span class="card-number">01</span><h3>Behavioral<br>Neuroscience</h3><p>Quantitative approaches to learning, memory, sleep and sensorimotor behavior.</p><span class="arrow">↗</span></a><a class="research-card" href="research.html#genomics"><span class="card-number">02</span><h3>Human Genomics<br>&amp; Multi-omics</h3><p>Genomic and molecular signatures of neurological and psychiatric disease.</p><span class="arrow">↗</span></a><a class="research-card" href="research.html#models"><span class="card-number">03</span><h3>Functional<br>Neurogenetics</h3><p>From genes to neural circuits using rigorous disease models.</p><span class="arrow">↗</span></a><a class="research-card" href="research.html#ai"><span class="card-number">04</span><h3>AI &amp; Precision<br>Medicine</h3><p>Computational approaches for biomarker discovery and therapeutic development.</p><span class="arrow">↗</span></a></div></div></section>
-<section class="section dark-section"><div class="container pipeline-grid"><div><p class="eyebrow">RESEARCH AT A GLANCE</p><h2>Bridging discovery and disease.</h2><p>Our research pipeline connects biological data with functional validation and clinically relevant questions.</p></div><div class="pipeline"><div>Human cohorts</div><i>↓</i><div>Genomics &amp; multi-omics</div><i>↓</i><div>Computational analysis</div><i>↓</i><div>Functional validation</div><i>↓</i><div>Neural circuits &amp; behavior</div></div></div></section>
-<section class="section"><div class="container split-section"><div><p class="eyebrow">SELECTED WORK</p><h2>Research that crosses traditional boundaries.</h2></div><div><p>My research has appeared in journals including <strong>Nature Methods, Neuron, Current Biology and PLOS Biology</strong>. The laboratory combines discovery science with translational questions across neurodevelopmental and neuropsychiatric disorders.</p><a class="text-link" href="publications.html">View selected publications <span>→</span></a></div></div></section></main>
-<footer class="footer"><div class="container footer-grid"><div><strong>Mohammad Farhan</strong><p>Associate Professor<br>Hamad Bin Khalifa University</p></div><div><p class="eyebrow">CONNECT</p><a href="https://scholar.google.com.sg/citations?user=f_7ggSUAAAAJ&amp;hl=en">Google Scholar</a><a href="https://orcid.org/0000-0002-2465-1508">ORCID</a><a href="https://www.linkedin.com/in/farhan-mohammad/">LinkedIn</a></div></div><div class="container copyright">© 2026 Mohammad Farhan. All rights reserved.</div></footer><script src="assets/js/main.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mohammad Farhan | Neuroscientist</title>
+<meta name="description" content="Mohammad Farhan, Associate Professor at Hamad Bin Khalifa University. Behavioural neuroscience, functional genetics, human genomics and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f1e8;
+  --paper-2:#efeade;
+  --ink:#182b26;
+  --ink-soft:#3a4d47;
+  --muted:#6f7d76;
+  --accent:#0e6f63;
+  --accent-deep:#0a4f47;
+  --line:#ddd6c6;
+  --card:#faf8f2;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:'IBM Plex Sans',system-ui,Arial,sans-serif;
+  line-height:1.65;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1080px,calc(100% - 44px));margin:auto}
+.eyebrow{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--accent);margin:0 0 20px;font-weight:500;
+}
+
+/* header */
+header{
+  position:sticky;top:0;z-index:30;
+  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
+}
+.bar{height:70px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;font-weight:600;font-size:15px}
+.brand b{
+  display:grid;place-items:center;width:34px;height:34px;border-radius:50%;
+  background:var(--ink);color:var(--paper);font-family:'Fraunces',serif;
+  font-size:15px;font-style:italic;
+}
+nav{display:flex;gap:30px;font-size:14px;color:var(--muted)}
+nav a{position:relative;padding:4px 0}
+nav a:hover{color:var(--ink)}
+nav a::after{
+  content:"";position:absolute;left:0;bottom:-2px;height:1.5px;width:0;
+  background:var(--accent);transition:width .25s ease;
+}
+nav a:hover::after{width:100%}
+.burger{display:none;background:none;border:0;color:var(--ink);font-size:22px;cursor:pointer}
+
+/* hero */
+.hero{padding:96px 0 30px}
+.hero-grid{display:grid;grid-template-columns:1.5fr .9fr;gap:64px;align-items:center}
+h1{
+  font-family:'Fraunces',serif;font-weight:400;
+  font-size:clamp(40px,6vw,74px);line-height:1.04;letter-spacing:-.02em;margin:0 0 26px;
+}
+h1 i{font-style:italic;color:var(--accent)}
+.lead{font-size:19px;color:var(--ink-soft);max-width:540px;margin:0 0 12px}
+.sub{font-size:16px;color:var(--muted);max-width:540px}
+.cta-row{display:flex;flex-wrap:wrap;align-items:center;gap:26px;margin-top:36px}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--paper);
+  padding:14px 24px;border-radius:2px;font-weight:600;font-size:14px;transition:.2s;
+}
+.btn:hover{background:var(--accent-deep);transform:translateY(-2px)}
+.tlink{font-weight:600;font-size:14px;border-bottom:1.5px solid var(--ink);padding-bottom:3px}
+.tlink:hover{color:var(--accent);border-color:var(--accent)}
+
+.portrait{
+  background:var(--card);padding:12px;border:1px solid var(--line);
+  box-shadow:0 26px 50px -28px rgba(24,43,38,.5);
+}
+.portrait img{display:block;width:100%;height:330px;object-fit:cover;object-position:center 20%}
+.portrait .fallback{
+  width:100%;height:330px;display:none;place-items:center;
+  background:linear-gradient(150deg,var(--accent),var(--ink));
+  color:var(--paper);font-family:'Fraunces',serif;font-style:italic;font-size:96px;
+}
+.portrait figcaption{padding:15px 6px 4px;font-size:13px}
+.portrait figcaption b{display:block;font-weight:600}
+.portrait figcaption span{color:var(--muted);font-size:12px}
+
+/* signature axis */
+.axis{margin:70px 0 10px;padding-top:34px;border-top:1px solid var(--line)}
+.axis-label{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:20px}
+.axis-track{display:flex;align-items:center;gap:0;flex-wrap:wrap}
+.node{font-family:'IBM Plex Mono',monospace;font-size:12.5px;color:var(--ink-soft);white-space:nowrap}
+.node b{color:var(--accent);font-weight:500}
+.dash{flex:1;min-width:22px;height:1px;background:linear-gradient(90deg,var(--line),var(--accent));margin:0 12px;opacity:.8}
+
+/* metrics */
+.metrics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:44px}
+.metrics-grid{display:grid;grid-template-columns:repeat(5,1fr)}
+.metrics-grid div{padding:26px 20px;border-right:1px solid var(--line)}
+.metrics-grid div:last-child{border-right:0}
+.metrics-grid b{
+  display:block;font-family:'Fraunces',serif;font-size:33px;font-weight:500;letter-spacing:-.01em;
+}
+.metrics-grid span{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.05em;color:var(--muted)}
+
+/* sections */
+section{padding:92px 0}
+.head{max-width:640px;margin-bottom:52px}
+h2{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(28px,4vw,44px);line-height:1.12;letter-spacing:-.015em;margin:0 0 16px}
+.head p{color:var(--ink-soft);margin:0}
+
+/* about */
+.about{background:var(--paper-2)}
+.about-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}
+.about-grid .big{font-size:23px;line-height:1.5;color:var(--ink);margin:0 0 22px;font-weight:500}
+.about-grid p{color:var(--ink-soft)}
+
+/* research */
+.rgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.rcard{background:var(--card);padding:34px 32px;transition:background .22s}
+.rcard:hover{background:var(--paper)}
+.rcard .tag{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.rcard h3{font-family:'Fraunces',serif;font-weight:500;font-size:25px;margin:14px 0 12px;line-height:1.15}
+.rcard p{color:var(--ink-soft);font-size:15px;margin:0}
+
+/* publications */
+.pubs{background:var(--paper-2)}
+.pub{
+  display:grid;grid-template-columns:88px 1fr;gap:26px;
+  padding:28px 0;border-top:1px solid var(--line);align-items:start;
+}
+.pub:last-of-type{border-bottom:1px solid var(--line)}
+.pub .meta{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--accent);padding-top:5px;line-height:1.5}
+.pub .meta span{display:block;color:var(--muted)}
+.pub h3{font-family:'Fraunces',serif;font-weight:500;font-size:21px;line-height:1.3;margin:0 0 8px}
+.pub h3 a:hover{color:var(--accent)}
+.pub .authors{font-size:14px;color:var(--ink-soft);margin:0 0 6px}
+.pub .authors b{color:var(--ink);font-weight:600}
+.pub .link{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--muted)}
+.pub .link a{border-bottom:1px solid var(--line)}
+.pub .link a:hover{color:var(--accent);border-color:var(--accent)}
+.pubs .btn{margin-top:36px}
+
+/* timeline */
+.tl{border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);margin-top:20px}
+.tl div{padding:24px 18px 0 0;border-right:1px solid var(--line)}
+.tl div:last-child{border-right:0}
+.tl .yr{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--accent)}
+.tl b{display:block;margin-top:16px;font-size:16px;font-family:'Fraunces',serif;font-weight:500}
+.tl p{color:var(--muted);font-size:13px;margin:6px 0 0}
+
+/* contact */
+.contact{background:var(--ink);color:var(--paper)}
+.contact .eyebrow{color:#7fd0c5}
+.contact h2{color:var(--paper)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.contact-grid p{color:#c3cec9}
+.clink{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:16px 0;border-bottom:1px solid rgba(255,255,255,.16);font-weight:500;
+}
+.clink:hover{color:#7fd0c5}
+.clink span{font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8fa09a}
+
+footer{background:var(--ink);color:#8fa09a;font-size:12px;padding:0 0 40px}
+.foot{border-top:1px solid rgba(255,255,255,.14);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:'IBM Plex Mono',monospace;letter-spacing:.03em}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:860px){
+  nav{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);
+    flex-direction:column;gap:0;padding:8px 22px 16px;border-bottom:1px solid var(--line)}
+  nav.open{display:flex}
+  nav a{padding:12px 0}
+  .burger{display:block}
+  .hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
+  .rgrid{grid-template-columns:1fr}
+  .metrics-grid{grid-template-columns:repeat(2,1fr)}
+  .metrics-grid div{border-bottom:1px solid var(--line)}
+  .tl{grid-template-columns:1fr}
+  .tl div{border-right:0;border-bottom:1px solid var(--line);padding:18px 0}
+}
+@media(max-width:480px){
+  .metrics-grid{grid-template-columns:1fr}
+  .pub{grid-template-columns:1fr;gap:8px}
+  section{padding:66px 0}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .reveal{opacity:1;transform:none;transition:none}
+  .btn:hover{transform:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top"><b>f</b>Mohammad Farhan</a>
+    <button class="burger" aria-label="Menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<a id="top"></a>
+<main class="wrap">
+
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="reveal">
+        <p class="eyebrow">Associate Professor · Hamad Bin Khalifa University</p>
+        <h1>From genes<br>to <i>behaviour</i>.</h1>
+        <p class="lead">I study how genes shape brain function and behaviour. My work runs across human patient cohorts, functional genetics in <i>Drosophila</i>, quantitative behavioural neuroscience and machine learning.</p>
+        <p class="sub">The questions come first. The tools follow.</p>
+        <div class="cta-row">
+          <a class="btn" href="#research">See the research →</a>
+          <a class="tlink" href="#publications">Read the papers</a>
+        </div>
+      </div>
+      <figure class="portrait reveal">
+        <img src="assets/images/mohammad-farhan.jpeg" alt="Mohammad Farhan"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+        <div class="fallback">f</div>
+        <figcaption>
+          <b>Mohammad Farhan, PhD</b>
+          <span>College of Health &amp; Life Sciences<br>Hamad Bin Khalifa University, Doha</span>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="axis reveal">
+      <div class="axis-label">The through-line of the work</div>
+      <div class="axis-track">
+        <span class="node"><b>Genes</b></span><span class="dash"></span>
+        <span class="node">Genomics</span><span class="dash"></span>
+        <span class="node">Computation</span><span class="dash"></span>
+        <span class="node">Validation</span><span class="dash"></span>
+        <span class="node"><b>Behaviour</b></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="metrics">
+  <div class="wrap metrics-grid">
+    <div><b>17+</b><span>years research</span></div>
+    <div><b>2,200+</b><span>citations</span></div>
+    <div><b>30+</b><span>i10-index</span></div>
+    <div><b>19</b><span>h-index</span></div>
+    <div><b>$2.4M+</b><span>external funding</span></div>
+  </div>
+</div>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <p class="eyebrow">About</p>
+        <h2>Building bridges between biology and behaviour.</h2>
+      </div>
+      <div class="reveal">
+        <p class="big">I am an Associate Professor in the College of Health &amp; Life Sciences at Hamad Bin Khalifa University, where I founded Qatar's first experimental behavioural neuroscience research centre.</p>
+        <p>My research brings together biotechnology, neuroscience and computation to investigate neurological and psychiatric disorders. I want to understand how genetic and molecular changes reach up into neural circuits and shape what an animal does.</p>
+        <p>The lab pairs human cohorts with functional disease models and quantitative behaviour. The long-term aim is simple to state and hard to reach: find the mechanisms and biomarkers that make treatment more precise.</p>
+        <div class="tl">
+          <div><span class="yr">2001</span><b>BSc</b><p>Aligarh Muslim University</p></div>
+          <div><span class="yr">2003</span><b>MSc Biotechnology</b><p>Jamia Hamdard</p></div>
+          <div><span class="yr">2009</span><b>PhD Biotechnology</b><p>IGIB / SPPU</p></div>
+          <div><span class="yr">2009–18</span><b>Research training</b><p>Oxford · A*STAR · Duke-NUS</p></div>
+          <div><span class="yr">2018–</span><b>HBKU</b><p>Associate Professor, 2024</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Research</p>
+      <h2>Four questions, one shared method.</h2>
+      <p>The lab moves between human data, functional genetics, behavioural neuroscience and computation. Different tools, the same aim: connect a molecular change to something measurable in a living system.</p>
+    </div>
+    <div class="rgrid reveal">
+      <div class="rcard">
+        <span class="tag">Behavioural neuroscience</span>
+        <h3>Reading behaviour, quantitatively</h3>
+        <p>Precise, high-throughput approaches to learning, memory, sleep, sensorimotor gating and social behaviour, mostly in <i>Drosophila</i>.</p>
+      </div>
+      <div class="rcard">
+        <span class="tag">Human genomics &amp; multi-omics</span>
+        <h3>Signatures of disease</h3>
+        <p>Genomic, transcriptomic, proteomic and epigenetic signals of neurological and psychiatric disorders in Gulf and South Asian cohorts.</p>
+      </div>
+      <div class="rcard">
+        <span class="tag">Functional neurogenetics</span>
+        <h3>From candidate gene to circuit</h3>
+        <p>Using fly models and optogenetics to test what a gene actually does to neural circuits and behaviour, not just what it correlates with.</p>
+      </div>
+      <div class="rcard">
+        <span class="tag">AI &amp; precision medicine</span>
+        <h3>Making the data usable</h3>
+        <p>Machine learning to prioritise biomarkers, characterise disease biology and speed up the search for therapeutics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pubs" id="publications">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Publications</p>
+      <h2>Selected work.</h2>
+      <p>A short selection from a record spanning <i>Nature Methods</i>, <i>Neuron</i>, <i>PLOS Biology</i> and more. The full list is on Google Scholar.</p>
+    </div>
+
+    <div class="reveal">
+      <article class="pub">
+        <div class="meta">2017<span>Nature Methods</span></div>
+        <div>
+          <h3><a href="https://doi.org/10.1038/nmeth.4148" target="_blank" rel="noopener">Optogenetic inhibition of behavior with anion channelrhodopsins</a></h3>
+          <p class="authors"><b>Mohammad F</b>, Stewart JC, Ott S, Chlebikova K, Chua JY, Koh TW, Ho J, Claridge-Chang A.</p>
+          <p class="link"><a href="https://doi.org/10.1038/nmeth.4148" target="_blank" rel="noopener">doi.org/10.1038/nmeth.4148 ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2020<span>Neuron</span></div>
+        <div>
+          <h3><a href="https://www.sciencedirect.com/science/article/pii/S0896627319309237" target="_blank" rel="noopener">Neurons that function within an integrator to promote a persistent behavioral state in <i>Drosophila</i></a></h3>
+          <p class="authors">Jung Y, Kennedy A, Chiu H, <b>Mohammad F</b>, Claridge-Chang A, Anderson DJ.</p>
+          <p class="link"><a href="https://www.sciencedirect.com/science/article/pii/S0896627319309237" target="_blank" rel="noopener">Read at Neuron ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2023<span>PLOS Biology</span></div>
+        <div>
+          <h3><a href="https://doi.org/10.1371/journal.pbio.3002210" target="_blank" rel="noopener">The ortholog of human ssDNA-binding protein SSBP3 influences neurodevelopment and autism-like behaviors in <i>Drosophila melanogaster</i></a></h3>
+          <p class="authors">Salim S, Hussain S, Gowda SBM, Banu A, Ahammad F, Alwa A, Pasha M, <b>Mohammad F</b>.</p>
+          <p class="link"><a href="https://doi.org/10.1371/journal.pbio.3002210" target="_blank" rel="noopener">doi.org/10.1371/journal.pbio.3002210 ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2023<span>iScience</span></div>
+        <div>
+          <h3><a href="https://doi.org/10.1016/j.isci.2022.105886" target="_blank" rel="noopener">Serotonin distinctly controls behavioral states in restrained and freely moving <i>Drosophila</i></a></h3>
+          <p class="authors">Gowda SBM, Banu A, Salim S, Peker KA, <b>Mohammad F</b>.</p>
+          <p class="link"><a href="https://doi.org/10.1016/j.isci.2022.105886" target="_blank" rel="noopener">doi.org/10.1016/j.isci.2022.105886 ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2025<span>Biology</span></div>
+        <div>
+          <h3><a href="https://doi.org/10.3390/biology14091168" target="_blank" rel="noopener">From lab to clinic and farm: leveraging <i>Drosophila</i> feeding studies to combat eating disorders and pest challenges</a></h3>
+          <p class="authors">Banu A, Salim S, <b>Mohammad F</b>.</p>
+          <p class="link"><a href="https://doi.org/10.3390/biology14091168" target="_blank" rel="noopener">doi.org/10.3390/biology14091168 ↗</a></p>
+        </div>
+      </article>
+
+      <a class="btn" href="https://scholar.google.com.sg/citations?user=f_7ggSUAAAAJ&hl=en" target="_blank" rel="noopener">Full publication record ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's start a conversation.</h2>
+        <p>College of Health &amp; Life Sciences<br>Hamad Bin Khalifa University, Qatar Foundation<br>Doha, Qatar</p>
+      </div>
+      <div class="reveal">
+        <a class="clink" href="mailto:mohammadfarhan@hbku.edu.qa">mohammadfarhan@hbku.edu.qa <span>email</span></a>
+        <a class="clink" href="mailto:farhan8igib@gmail.com">farhan8igib@gmail.com <span>email</span></a>
+        <a class="clink" href="https://scholar.google.com.sg/citations?user=f_7ggSUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar <span>↗</span></a>
+        <a class="clink" href="https://orcid.org/0000-0002-2465-1508" target="_blank" rel="noopener">ORCID <span>↗</span></a>
+        <a class="clink" href="https://www.linkedin.com/in/farhan-mohammad/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+        <a class="clink" href="https://elmi.hbku.edu.qa/en/persons/mohammad-farhan/" target="_blank" rel="noopener">HBKU profile <span>↗</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Mohammad Farhan</span>
+    <span>Doha, Qatar</span>
+  </div>
+</footer>
+
+<script>
+  const burger=document.querySelector('.burger'),nav=document.querySelector('nav');
+  burger.addEventListener('click',()=>nav.classList.toggle('open'));
+  nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+
+  const io=new IntersectionObserver((es)=>{
+    es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
