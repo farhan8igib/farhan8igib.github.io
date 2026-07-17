@@ -170,6 +170,25 @@ h2{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(28px,4vw,44px);l
 footer{background:var(--ink);color:#8fa09a;font-size:12px;padding:0 0 40px}
 .foot{border-top:1px solid rgba(255,255,255,.14);padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-family:'IBM Plex Mono',monospace;letter-spacing:.03em}
 
+/* media & writing */
+.subhead{
+  font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--muted);margin:0 0 22px;
+  padding-bottom:12px;border-bottom:1px solid var(--line);
+}
+.media-cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:64px}
+.mcard{
+  display:flex;align-items:center;gap:20px;padding:24px 26px;
+  background:var(--card);border:1px solid var(--line);transition:.2s;
+}
+.mcard:hover{border-color:var(--accent);transform:translateY(-3px)}
+.play{
+  flex:none;width:48px;height:48px;border-radius:50%;background:var(--accent);
+  color:var(--paper);display:grid;place-items:center;font-size:15px;padding-left:3px;
+}
+.mcard b{display:block;font-family:'Fraunces',serif;font-weight:500;font-size:19px;line-height:1.25}
+.mcard span{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.05em;color:var(--muted)}
+
 /* reveal */
 .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
@@ -209,6 +228,7 @@ footer{background:var(--ink);color:#8fa09a;font-size:12px;padding:0 0 40px}
       <a href="#about">About</a>
       <a href="#research">Research</a>
       <a href="#publications">Publications</a>
+      <a href="#media">Writing</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
@@ -373,6 +393,70 @@ footer{background:var(--ink);color:#8fa09a;font-size:12px;padding:0 0 40px}
       </article>
 
       <a class="btn" href="https://scholar.google.com.sg/citations?user=f_7ggSUAAAAJ&hl=en" target="_blank" rel="noopener">Full publication record ↗</a>
+    </div>
+  </div>
+</section>
+
+<section id="media">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Media &amp; writing</p>
+      <h2>Science, out loud.</h2>
+      <p>Alongside the research, I write for a general readership and speak on science and society. A few pieces are collected here.</p>
+    </div>
+
+    <div class="reveal">
+      <p class="subhead">On screen</p>
+      <div class="media-cards">
+        <a class="mcard" href="https://www.youtube.com/watch?v=J1ItfXkge-c" target="_blank" rel="noopener">
+          <span class="play">▶</span>
+          <span style="display:block">
+            <b>Featured on Qatar TV</b>
+            <span>YouTube · interview</span>
+          </span>
+        </a>
+        <a class="mcard" href="https://www.linkedin.com/posts/boualamallahm_i-was-delighted-to-meet-dr-mohammad-farhan-activity-7095759592290185217-y0AD/" target="_blank" rel="noopener">
+          <span class="play">▶</span>
+          <span style="display:block">
+            <b>In conversation</b>
+            <span>LinkedIn · feature</span>
+          </span>
+        </a>
+      </div>
+
+      <p class="subhead">Selected writing</p>
+
+      <article class="pub">
+        <div class="meta">2025<span>Fair Observer</span></div>
+        <div>
+          <h3><a href="https://www.fairobserver.com/more/science/ai-in-medicine-separating-silicon-valley-dreams-from-scientific-reality/" target="_blank" rel="noopener">AI in medicine: separating Silicon Valley dreams from scientific reality</a></h3>
+          <p class="link"><a href="https://www.fairobserver.com/more/science/ai-in-medicine-separating-silicon-valley-dreams-from-scientific-reality/" target="_blank" rel="noopener">Read at Fair Observer ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2024<span>The Peninsula</span></div>
+        <div>
+          <h3><a href="https://thepeninsulaqatar.com/opinion/11/07/2024/adapting-healthcare-for-a-growing-and-aging-global-population" target="_blank" rel="noopener">Adapting healthcare for a growing and aging global population</a></h3>
+          <p class="link"><a href="https://thepeninsulaqatar.com/opinion/11/07/2024/adapting-healthcare-for-a-growing-and-aging-global-population" target="_blank" rel="noopener">Read at The Peninsula ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta">2023<span>Doha News</span></div>
+        <div>
+          <h3><a href="https://dohanews.co/fruit-flies-are-shaping-the-future-of-autism-research/" target="_blank" rel="noopener">Fruit flies are shaping the future of autism research</a></h3>
+          <p class="link"><a href="https://dohanews.co/fruit-flies-are-shaping-the-future-of-autism-research/" target="_blank" rel="noopener">Read at Doha News ↗</a></p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="meta"><span>Qatar Tribune</span></div>
+        <div>
+          <h3><a href="https://www.qatar-tribune.com/article/225625/NATION/Gut-microbiome-plays-major-role-in-ensuring-mental-health-Dr-Farhan" target="_blank" rel="noopener">Gut microbiome plays a major role in ensuring mental health</a></h3>
+          <p class="link"><a href="https://www.qatar-tribune.com/article/225625/NATION/Gut-microbiome-plays-major-role-in-ensuring-mental-health-Dr-Farhan" target="_blank" rel="noopener">Read at Qatar Tribune ↗</a></p>
+        </div>
+      </article>
     </div>
   </div>
 </section>
