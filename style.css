@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
-
 :root{
   --paper:#f4f1e8;
   --paper-2:#efeade;
@@ -19,6 +17,7 @@ body{
   line-height:1.65;-webkit-font-smoothing:antialiased;
 }
 a{color:inherit;text-decoration:none}
+img{max-width:100%}
 .wrap{width:min(1080px,calc(100% - 44px));margin:auto}
 .eyebrow{
   font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.22em;
@@ -28,7 +27,7 @@ a{color:inherit;text-decoration:none}
 /* header */
 header{
   position:sticky;top:0;z-index:30;
-  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  background:rgba(244,241,232,.92);
   backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
 }
 .bar{height:70px;display:flex;align-items:center;justify-content:space-between}
