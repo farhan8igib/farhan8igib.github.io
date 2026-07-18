@@ -50,15 +50,20 @@ header{position:sticky;top:0;z-index:30;background:rgba(244,241,232,.92);backdro
 .avatar-fallback{width:190px;height:190px;border-radius:50%;display:none;place-items:center;background:linear-gradient(150deg,var(--accent),var(--ink));color:var(--paper);font-family:'Fraunces',serif;font-style:italic;font-size:78px;border:5px solid var(--card)}
 .eyebrow{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 14px;font-weight:500}
 .pname{font-family:'Fraunces',serif;font-weight:500;font-size:clamp(34px,5vw,52px);letter-spacing:-.02em;margin:0 0 16px;line-height:1.06}
-.tagline{font-family:'IBM Plex Mono',monospace;font-size:12.5px;letter-spacing:.02em;color:var(--muted);line-height:1.95;margin:0 0 26px}
+.tagline{font-family:'IBM Plex Mono',monospace;font-size:12.5px;letter-spacing:.02em;color:var(--accent);font-weight:500;line-height:1.95;margin:0 0 26px}
 .social{display:flex;flex-wrap:wrap;justify-content:center;gap:9px;margin-bottom:40px}
-.social a{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);border:1px solid var(--line);padding:8px 15px;border-radius:999px;transition:.18s}
+.social a{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:500;border:1px solid var(--line);padding:8px 15px;border-radius:999px;transition:.18s}
 .social a:hover{border-color:var(--accent);color:var(--accent)}
 .intro{max-width:640px;margin:0 auto;text-align:left}
 .intro p{color:var(--ink-soft);font-size:16.5px;margin:0 0 16px}
 .intro a{color:var(--accent);border-bottom:1px solid var(--line)}
 .intro a:hover{border-color:var(--accent)}
 
+.stats{display:flex;justify-content:center;max-width:520px;margin:0 auto 42px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stats div{flex:1;padding:16px 10px;border-right:1px solid var(--line)}
+.stats div:last-child{border-right:0}
+.stats b{display:block;font-family:'Fraunces',serif;font-size:26px;font-weight:500;color:var(--ink);letter-spacing:-.01em}
+.stats span{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 /* what I do */
 .doing{max-width:960px;margin:66px auto 0}
 .doing h2{font-family:'Fraunces',serif;font-weight:500;font-size:26px;text-align:center;margin:0 0 34px}
@@ -135,6 +140,12 @@ footer a:hover{color:#7fd0c5}
       <a href="https://www.linkedin.com/in/farhan-mohammad/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:mohammadfarhan@hbku.edu.qa">Email</a>
       <a href="https://elmi.hbku.edu.qa/en/persons/mohammad-farhan/" target="_blank" rel="noopener">HBKU</a>
+    </div>
+
+    <div class="stats">
+      <div><b>19</b><span>h-index</span></div>
+      <div><b>2,200+</b><span>Citations</span></div>
+      <div><b>$2.4M+</b><span>Funding</span></div>
     </div>
 
     <div class="intro">
