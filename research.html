@@ -239,6 +239,13 @@ footer a:hover{color:#7fd0c5}
   .btn:hover,.mcard:hover{transform:none}
 }
 
+
+/* figures */
+.figs{margin-top:70px;padding-top:40px;border-top:1px solid var(--line)}
+.figblock{margin:0 0 46px}
+.figblock img{display:block;width:100%;background:#fff;border:1px solid var(--line);padding:10px}
+.figblock figcaption{margin-top:12px;font-size:14.5px;color:var(--ink-soft);max-width:760px}
+.figblock .fnum{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;display:block;margin-bottom:6px}
 </style>
 </head>
 <body>
@@ -303,6 +310,29 @@ footer a:hover{color:#7fd0c5}
         <span class="node">Fly &amp; cell validation</span><span class="dash"></span>
         <span class="node"><b>Circuits &amp; behaviour</b></span>
       </div>
+    </div>
+
+    <div class="figs reveal">
+      <div class="head" style="margin-bottom:34px">
+        <p class="eyebrow">The science, in pictures</p>
+        <h2>What the work looks like.</h2>
+        <p>A few figures from the lab, spanning behavioural assays, optogenetics, disease models and computational analysis.</p>
+      </div>
+
+      <figure class="figblock">
+        <img src="assets/images/Figure1.jpg" alt="Behavioural paradigms developed and applied in the lab" loading="lazy">
+        <figcaption><span class="fnum">Figure 1</span>Behavioural paradigms built and applied in the lab, each mapped to a disorder: wall-following for anxiety, GtACR optogenetic silencing for epilepsy and Parkinson's, stress-induced immobility for depression and PTSD, and prepulse inhibition for schizophrenia. Below, AI-based phenomics of movement disorders, genetics and epigenetics in cerebral palsy, and sexual dimorphism in autism.</figcaption>
+      </figure>
+
+      <figure class="figblock">
+        <img src="assets/images/Figure2.jpg" alt="Alpha-synuclein Drosophila model of Parkinson's disease" loading="lazy">
+        <figcaption><span class="fnum">Figure 2</span>A <i>Drosophila</i> model of Parkinson's disease. Turning deficits and aggregate formation in flies expressing human SNCA, paired with transcriptomics, molecular docking of interacting partners, and rescue of walking speed by <i>Gapdh2</i> knockdown.</figcaption>
+      </figure>
+
+      <figure class="figblock">
+        <img src="assets/images/Figure3.jpg" alt="CHD2 and sex-specific regulation of neurodevelopment and sleep" loading="lazy">
+        <figcaption><span class="fnum">Figure 3</span>Sex-specific regulation of neurodevelopment and behaviour by the CHD gene family. Constraint and sex-bias across CHD1 to CHD9, single-cell expression of CHD2 across human brain development, and sleep phenotypes in fly models with and without L-DOPA treatment.</figcaption>
+      </figure>
     </div>
   </section>
 </main>
